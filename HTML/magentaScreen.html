@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title></title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleSheet.css">
+    <script src="javascript/Magenta.js"></script>
+    <script src="javascript/Main.js"></script>
+</head>
+<body>
+    <div id="navbar">
+        <a href="home.html">Home</a>
+        <a href="magentaScreen.html" class="active">Magenta</a>
+    </div>
+    <div id="main">
+        <p id="instructions">Enter module and bomb information:</p>
+        <div id="inputOne" class="bodySections">
+            <label for="screenOne">First Screen:</label>
+            <input type="text" id="screenOne" maxlength="6"><br>
+        </div>
+
+        <div id="inputTwo" class="bodySections">
+            <label for="screenTwo">Second Screen:</label>
+            <input type="number" id="screenTwo"><br>
+        </div>
+
+        <div id="inputThree" class="bodySections">
+            <label for="screenThree">Third Screen:</label>
+            <input type="text" id="screenThree" maxLength="3"><br>
+        </div>
+
+        <div id="inputSerial" class="bodySections">
+            <label for="serialNumber">Serial:</label>
+            <input type="text" id="serialNumber" maxLength="6"><br>
+        </div>
+
+        <input id="submit" class="bodySections" type="submit" value="Submit" onclick="runMagenta();"/>
+        <p id="answer" class="bodySections">Answer:</p>
+    </div>
+
+
+</body>
+</html>
